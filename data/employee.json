@@ -1,0 +1,6 @@
+{
+  "add_user": {"username": "tom","mobile": "13012341120","statusCode": 200,"success": true,"code": 10000,"msg": "操作成功"},
+  "query_user": {"statusCode": 200,"success": true,"code": 10000,"msg": "操作成功"},
+  "modify_user": {"newname": "tom-new","statusCode": 200,"success": true,"code": 10000,"msg": "操作成功"},
+  "delete_user": {"statusCode": 200,"success": true,"code": 10000,"msg": "操作成功"}
+}

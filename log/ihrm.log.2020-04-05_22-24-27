@@ -1,0 +1,22 @@
+2020-04-05 22:24:27,252 INFO [root] [__init__.py(<module>:4)]  测试日志能否正常打印！
+2020-04-05 22:24:27,622 INFO [root] [testEmp.py(test_emp_manage:25)]  login_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '60abe524-f652-401b-8d40-ee7adfbdae6a'}
+2020-04-05 22:24:27,623 INFO [root] [testEmp.py(test_emp_manage:29)]  token=Bearer 60abe524-f652-401b-8d40-ee7adfbdae6a
+2020-04-05 22:24:27,948 INFO [root] [testEmp.py(test_emp_manage:34)]  add_resp={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-04-05 22:24:28,311 INFO [root] [testEmp2.py(test_emp_manage:24)]  login_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '13bd2534-0576-4fa2-bb09-fbd53e2c2a7e'}
+2020-04-05 22:24:28,313 INFO [root] [testEmp2.py(test_emp_manage:28)]  token=Bearer 13bd2534-0576-4fa2-bb09-fbd53e2c2a7e
+2020-04-05 22:24:28,460 INFO [root] [testEmp2.py(test_emp_manage:32)]  add_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1246805953710391296'}}
+2020-04-05 22:24:28,460 INFO [root] [testEmp2.py(test_emp_manage:37)]  userid=1246805953710391296
+2020-04-05 22:24:28,561 INFO [root] [testEmp2.py(test_emp_manage:40)]  query_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1246805953710391296', 'mobile': '13012341118', 'username': 'tom', 'password': '8ca0a71bd3703557d37506d8d1634718', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-04-05T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-04-05 22:24:28,626 INFO [root] [testEmp2.py(test_emp_manage:47)]  modify_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1246805953710391296'}}
+2020-04-05 22:24:28,821 INFO [root] [testEmp2.py(test_emp_manage:53)]  delete_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-04-05 22:24:29,131 INFO [root] [testEmp3.py(test01_login:27)]  login_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '19b80fcb-ed60-4224-a1d1-82dc8f70dd8e'}
+2020-04-05 22:24:29,131 INFO [root] [testEmp3.py(test01_login:31)]  token=Bearer 19b80fcb-ed60-4224-a1d1-82dc8f70dd8e
+2020-04-05 22:24:29,545 INFO [root] [testEmp3.py(test02_adduser:37)]  add_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1246805957627871232'}}
+2020-04-05 22:24:29,546 INFO [root] [testEmp3.py(test02_adduser:42)]  userid=1246805957627871232
+2020-04-05 22:24:29,893 INFO [root] [testEmp3.py(test03_query:48)]  query_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1246805957627871232', 'mobile': '13012341120', 'username': 'tom', 'password': '6c2665bc95c8256b0be0e1d768284c30', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-04-05T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-04-05 22:24:30,201 INFO [root] [testEmp3.py(test04_modify:57)]  modify_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1246805957627871232'}}
+2020-04-05 22:24:30,565 INFO [root] [testEmp3.py(test05_delete:80)]  delete_resp={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-04-05 22:24:31,723 INFO [root] [testLogin_params.py(test_login:23)]  参数化登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c0b809fd-b503-4cbe-9010-2af5ac8289ad'}
+2020-04-05 22:24:31,805 INFO [root] [testLogin_params.py(test_login:23)]  参数化登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-04-05 22:24:31,887 INFO [root] [testLogin_params.py(test_login:23)]  参数化登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-04-05 22:24:31,969 INFO [root] [testLogin_params.py(test_login:23)]  参数化登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
