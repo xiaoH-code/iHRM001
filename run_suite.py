@@ -16,7 +16,8 @@ suite.addTest(unittest.makeSuite(testEmp3))
 suite.addTest(unittest.makeSuite(testLogin))
 suite.addTest(unittest.makeSuite(testLoginParams))
 #指定测试报告路径
-report_file = app.BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%d %H%M%S"))
+#report_file = app.BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%d %H%M%S"))
+report_file = app.BASE_DIR + "/report/report.html"
 #生成测试报告
 with open(report_file,'wb') as f:
     runner = HTMLTestRunner(f,title="iHRM系统测试报告")
